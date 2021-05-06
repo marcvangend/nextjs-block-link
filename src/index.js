@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { useRouter } from "next/router";
 
-export const BlockLink = ({ children, as = "div", className = "", styles = {}, ...rest }) => {
+export const BlockLink = ({ children, tag = "div", style = {cursor: 'pointer'}, ...rest }) => {
   const ref = useRef();
   const router = useRouter();
 
@@ -21,15 +21,13 @@ export const BlockLink = ({ children, as = "div", className = "", styles = {}, .
     }
   };
 
-  const Element = as;
-  const mergedStyles = {cursor: 'pointer', ...styles}
+  const Element = tag;
 
   return (
     <Element
       ref={ref}
       onClick={clickHandler}
-      className={`block-link ${className}`}
-      style={mergedStyles}
+      style={style}
       {...rest}
     >
       {children}
