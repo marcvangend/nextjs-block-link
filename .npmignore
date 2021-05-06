@@ -1,4 +1,7 @@
 src
-webpack.config.js
+rollup.config.js
 .babelrc
 .eslintrc.js
+.editorconfig
+.prettierrc.json
+.idea
