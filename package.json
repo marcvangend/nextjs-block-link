@@ -2,7 +2,17 @@
   "name": "nextjs-block-link",
   "version": "0.9.9",
   "description": "An accessible block-link component for Next.js",
-  "keywords": ["nextjs", "next.js", "react", "ui", "accessibility", "a11y", "link", "block", "card"],
+  "keywords": [
+    "nextjs",
+    "next.js",
+    "react",
+    "ui",
+    "accessibility",
+    "a11y",
+    "link",
+    "block",
+    "card"
+  ],
   "author": "marcvangend",
   "license": "MIT",
   "repository": "marcvangend/nextjs-block-link",
