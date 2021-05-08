@@ -1,6 +1,6 @@
 {
   "name": "nextjs-block-link",
-  "version": "0.9.9",
+  "version": "1.0.0",
   "description": "An accessible block-link component for Next.js",
   "keywords": [
     "nextjs",
