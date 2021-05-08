@@ -41,5 +41,8 @@
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
